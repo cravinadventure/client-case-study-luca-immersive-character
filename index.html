@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LUCA · Character Design · Cravin' Adventure Studios</title>
+<style>
+  :root{--electric:#6C5CE7;--violet:#4A3BAD;--charcoal:#12121f;--ink:#0b0b14;--paper:#f4f3fb;--muted:#9a98b5;--line:rgba(108,92,231,.22);--good:#39d98a}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:var(--ink);color:var(--paper);font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  .wrap{max-width:860px;margin:0 auto;padding:0 28px}
+  a{color:inherit}
+
+  nav{position:sticky;top:0;z-index:50;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;padding:16px 28px;background:radial-gradient(55% 160% at 50% 50%, rgba(108,92,231,.42), rgba(11,11,20,.88) 70%);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+  nav .brand{font-weight:800;letter-spacing:1.6px;font-size:13px;text-transform:uppercase}
+  nav .brand span{color:var(--electric)}
+  nav .tag{font-size:11.5px;font-weight:700;letter-spacing:1.4px;text-transform:uppercase;color:var(--muted);text-align:right}
+
+  .hero{text-align:center;padding:90px 0 44px;background:radial-gradient(900px 440px at 50% -10%, rgba(108,92,231,.32), transparent 70%),linear-gradient(180deg,#15152a 0%,var(--ink) 100%)}
+  .eyebrow{font-size:12.5px;font-weight:700;letter-spacing:3.5px;text-transform:uppercase;color:var(--electric);margin-bottom:20px}
+  .hero h1{font-size:clamp(38px,7vw,68px);line-height:1;font-weight:800;letter-spacing:-1.5px}
+  .hero .sub{max-width:520px;margin:20px auto 0;color:var(--muted);font-size:clamp(16px,2.2vw,20px)}
+
+  section{padding:60px 0;border-top:1px solid rgba(108,92,231,.08)}
+  .shead{text-align:center;max-width:620px;margin:0 auto 38px}
+  .shead .k{font-size:12px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--electric);margin-bottom:12px}
+  .shead h2{font-size:clamp(25px,3.8vw,36px);font-weight:800;letter-spacing:-.4px;line-height:1.12}
+  .shead p{margin-top:14px;color:var(--muted);font-size:16px}
+
+  .bio{max-width:600px;margin:0 auto;text-align:center}
+  .bio p{font-size:17px;line-height:1.65;color:#d6d5e6;margin-bottom:16px}
+  .bio p:last-child{margin-bottom:0}
+
+  .gal{display:grid;gap:14px}
+  .gal4{grid-template-columns:repeat(4,1fr)}
+  .gal3{grid-template-columns:repeat(3,1fr)}
+  .gal2{grid-template-columns:repeat(2,1fr)}
+  .item{display:flex;flex-direction:column;gap:9px}
+  .item .tile{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--paper);line-height:0}
+  .item img{width:100%;height:auto;display:block}
+  .item .cap{font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:var(--muted);text-align:center}
+
+  .more{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:6px}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:13px 26px;border-radius:30px;font-size:14px;font-weight:700;letter-spacing:.3px;text-decoration:none;transition:transform .15s,box-shadow .15s,background .15s,border-color .15s}
+  .btn.primary{background:var(--electric);color:#fff}
+  .btn.primary:hover{transform:translateY(-1px);box-shadow:0 8px 24px rgba(108,92,231,.4)}
+  .btn.ghost{border:1.5px solid var(--line);color:var(--paper)}
+  .btn.ghost:hover{border-color:var(--electric)}
+
+  footer{padding:52px 0 70px;text-align:center;border-top:1px solid var(--line);color:var(--muted)}
+  footer .brand{font-weight:800;letter-spacing:1.6px;text-transform:uppercase;color:var(--paper);font-size:14px}
+  footer a{color:var(--electric);text-decoration:none}
+
+  @media(max-width:600px){.gal4,.gal3{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div></div>
+  <div class="brand">CRAVIN' <span>ADVENTURE</span> STUDIOS</div>
+  <div class="tag">Client Case Studies</div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">LUCA IMMERSIVE · Character Design</div>
+    <h1>Meet LUCA.</h1>
+    <p class="sub">The face of The Field. A guide given form, designed from every angle.</p>
+  </div>
+</header>
+
+<main>
+
+<section>
+  <div class="wrap">
+    <div class="bio">
+      <p>LUCA is the character at the heart of the LUCA IMMERSIVE world. In the story, everything imaginable lives in a place called The Field, a white space where ideas first take shape.</p>
+      <p>LUCA is that field's light, given a form. A guide and a translator, not a creator. He reveals what is already there and hands it to the people in the room. The face of a shared, infinite source of imagination.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="shead">
+      <div class="k">Turnaround</div>
+      <h2>Designed from every angle.</h2>
+    </div>
+    <div class="gal gal4">
+      <div class="item"><div class="tile"><img src="assets/luca_front.jpg" alt="LUCA front"></div><span class="cap">Front</span></div>
+      <div class="item"><div class="tile"><img src="assets/luca_right.jpg" alt="LUCA right"></div><span class="cap">Right</span></div>
+      <div class="item"><div class="tile"><img src="assets/luca_back.jpg" alt="LUCA back"></div><span class="cap">Back</span></div>
+      <div class="item"><div class="tile"><img src="assets/luca_left.jpg" alt="LUCA left"></div><span class="cap">Left</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="shead">
+      <div class="k">Exploration</div>
+      <h2>Every detail, considered.</h2>
+      <p>The look was built piece by piece, from the mask down to the boots.</p>
+    </div>
+    <div class="gal gal3">
+      <div class="item"><div class="tile"><img src="assets/luca_detail_head.jpg" alt="LUCA head"></div><span class="cap">Head</span></div>
+      <div class="item"><div class="tile"><img src="assets/luca_detail_goggles.jpg" alt="LUCA goggles"></div><span class="cap">Goggles</span></div>
+      <div class="item"><div class="tile"><img src="assets/luca_detail_chest.jpg" alt="LUCA chest"></div><span class="cap">Chest</span></div>
+      <div class="item"><div class="tile"><img src="assets/luca_detail_gloves.jpg" alt="LUCA gloves"></div><span class="cap">Gloves</span></div>
+      <div class="item"><div class="tile"><img src="assets/luca_detail_legs.jpg" alt="LUCA legs"></div><span class="cap">Legs</span></div>
+      <div class="item"><div class="tile"><img src="assets/luca_detail_boots.jpg" alt="LUCA boots"></div><span class="cap">Boots</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="shead">
+      <div class="k">In The Field</div>
+      <h2>Where LUCA lives.</h2>
+      <p>The Field is a white void until someone gives it attention. LUCA moves through it, pulling fragments into form.</p>
+    </div>
+    <div class="gal gal2">
+      <div class="item"><div class="tile"><img src="assets/luca_field_1.jpg" alt="LUCA in The Field"></div></div>
+      <div class="item"><div class="tile"><img src="assets/luca_field_walk.jpg" alt="LUCA walking in The Field"></div></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="shead">
+      <div class="k">More from LUCA IMMERSIVE</div>
+      <h2>The character is one piece.</h2>
+    </div>
+    <div class="more">
+      <a class="btn primary" href="https://cravinadventure.github.io/client-case-study-luca-immersive/" target="_blank" rel="noopener">The Interactive Event &rarr;</a>
+      <a class="btn ghost" href="https://cravinadventure.github.io/client-case-studies/" target="_blank" rel="noopener">All case studies &rarr;</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="brand">CRAVIN' ADVENTURE STUDIOS</div>
+  <p style="margin-top:8px;font-size:13px"><a href="mailto:cravinadventure@gmail.com">cravinadventure@gmail.com</a></p>
+</footer>
+
+</body>
+</html>
